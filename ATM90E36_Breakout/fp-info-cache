@@ -10,23 +10,23 @@ ATM90E36_Breakout
 1X06_LOCK
 This footprint was designed to help hold the alignment of a through-hole component (i.e.  6-pin header) while soldering it into place.  
 You may notice that each hole has been shifted either up or down by 0.005 of an inch from it's more standard position (which is a perfectly straight line).  
-This slight alteration caused the pins (the squares in the middle) to touch the edges of the holes.  Because they are alternating, it causes a "brace" 
-to hold the component in place.  0.005 has proven to be the perfect amount of "off-center" position when using our standard breakaway headers.
-Although looks a little odd when you look at the bare footprint, once you have a header in there, the alteration is very hard to notice.  Also,
+0
+0
+0
 if you push a header all the way into place, it is covered up entirely on the bottom side.  This idea of altering the position of holes to aid alignment 
 will be further integrated into the Sparkfun Library for other footprints.  It can help hold any component with 3 or more connection pins.
 
 0
 6
 6
-ATM90E36_Breakout
+0
 AUDIO6P-SMD-3.5-14.0X6.4X5.0MM
 
 
 0
 6
 6
-ATM90E36_Breakout
+0
 C0603
 <b>CAPACITOR</b><p>
 chip
@@ -38,58 +38,58 @@ ATM90E36_Breakout
 C0805
 <b>CAPACITOR</b><p>
 chip
-
+0
 0
 2
 2
 ATM90E36_Breakout
 CHIP-LED0603
 <b>Hyper CHIPLED Hyper-Bright LED</b><p>
-LB Q993<br>
-Source: http://www.osram.convergy.de/ ... Lb_q993.pdf
-
+0
+0
+0
 0
 2
 2
 ATM90E36_Breakout
-FA-128
-<b><b>MHZ RANGE CRYSTASL UNIT</b></b> FA-128<p>
-ULTRA MINIATURE SIZE LOW PROFILE SMD<br>
+0
+0
+0
 Source: Epson Toyocom FA128.pdf
 
 0
 4
 4
-ATM90E36_Breakout
-H2-3.5-7.0X7.0MM
+0
+0
 
 
 0
 2
 2
-ATM90E36_Breakout
-OSHW-LOGO-M
+0
+0
 
 
 0
 0
 0
-ATM90E36_Breakout
-PAD-JUMPER-3-NO_YES_SILK_FULL_BOX
+0
+0
 <b>Solder jumper</b>
 
 0
 3
 3
-ATM90E36_Breakout
-R0603
+0
+0
 <b>RESISTOR</b><p>
 chip
 
 0
 2
 2
-ATM90E36_Breakout
+0
 RA1206-8
 <b>BOURNS</b> Chip Resistor Array<p>
 Source: RS Component / BUORNS
