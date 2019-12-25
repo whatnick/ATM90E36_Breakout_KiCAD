@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:\Users\Tisham\Documents\kicad\ATM90E36_Breakout_KiCAD\ATM90E36_Breakout\ATM90E36_Breakout.sch)
-    (date "23/12/2019 11:46:24 PM")
+    (date "26/12/2019 9:50:27 AM")
     (tool "Eeschema (5.1.5)-3")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -126,6 +126,8 @@
     (comp (ref IC1)
       (value ATM90E36)
       (footprint ATM90E36_Breakout:TQFP48)
+      (fields
+        (field (name manf#) "	ATM90E36A-AU-R"))
       (libsource (lib ATM90E36_Breakout-eagle-import) (part ATM90E36) (description ""))
       (sheetpath (names /) (tstamps /))
       (tstamp 8121542E))
@@ -434,7 +436,14 @@
       (footprint ATM90E36_Breakout:RA1206-8)
       (libsource (lib ATM90E36_Breakout-eagle-import) (part "SMD-RES-ARRAY-1K-4R(RA1206-8)") (description ""))
       (sheetpath (names /) (tstamps /))
-      (tstamp 201E23F1)))
+      (tstamp 201E23F1))
+    (comp (ref LOGO1)
+      (value Logo_Open_Hardware_Small)
+      (footprint ATM90E36_Breakout:OSHW-LOGO-M)
+      (datasheet ~)
+      (libsource (lib Graphic) (part Logo_Open_Hardware_Small) (description "Open Hardware logo, small"))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5E08577C)))
   (libparts
     (libpart (lib ATM90E36_Breakout-eagle-import) (part ATM90E36)
       (fields
@@ -590,10 +599,18 @@
         (field (name Reference) PAD)
         (field (name Value) SMD2))
       (pins
-        (pin (num 1) (name P) (type passive)))))
+        (pin (num 1) (name P) (type passive))))
+    (libpart (lib Graphic) (part Logo_Open_Hardware_Small)
+      (description "Open Hardware logo, small")
+      (docs ~)
+      (fields
+        (field (name Reference) "#LOGO")
+        (field (name Value) Logo_Open_Hardware_Small))))
   (libraries
     (library (logical ATM90E36_Breakout-eagle-import)
-      (uri C:\Users\Tisham\Documents\kicad\ATM90E36_Breakout_KiCAD\ATM90E36_Breakout/library/ATM90E36_Breakout-eagle-import.lib)))
+      (uri C:\Users\Tisham\Documents\kicad\ATM90E36_Breakout_KiCAD\ATM90E36_Breakout/library/ATM90E36_Breakout-eagle-import.lib))
+    (library (logical Graphic)
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library/Graphic.lib")))
   (nets
     (net (code 1) (name /IAP)
       (node (ref R8) (pin 2))
