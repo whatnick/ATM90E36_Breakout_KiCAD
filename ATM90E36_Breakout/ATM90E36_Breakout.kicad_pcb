@@ -63,7 +63,7 @@
     (visible_elements 7FFFFFFF)
     (pcbplotparams
       (layerselection 0x010fc_ffffffff)
-      (usegerberextensions false)
+      (usegerberextensions true)
       (usegerberattributes false)
       (usegerberadvancedattributes false)
       (creategerberjobfile false)
@@ -85,9 +85,9 @@
       (subtractmaskfromsilk false)
       (outputformat 1)
       (mirror false)
-      (drillshape 1)
+      (drillshape 0)
       (scaleselection 1)
-      (outputdirectory ""))
+      (outputdirectory "gerbers"))
   )
 
   (net 0 "")
@@ -444,10 +444,11 @@
 
   (module "" (layer Top) (tedit 0) (tstamp 0)
     (at 146.7511 82.2786)
-    (fp_text reference @HOLE0 (at 0 0) (layer F.SilkS) hide
+    (path /5E0C8CBA)
+    (fp_text reference Hole0 (at 0 0) (layer F.SilkS) hide
       (effects (font (size 0.8 0.8) (thickness 0.2)))
     )
-    (fp_text value "" (at 0 0) (layer F.SilkS)
+    (fp_text value MountingHole (at 0 0) (layer F.SilkS) hide
       (effects (font (size 1.27 1.27) (thickness 0.15)))
     )
     (pad "" np_thru_hole circle (at 0 0) (size 3.2 3.2) (drill 3.2) (layers *.Cu *.Mask))
@@ -455,10 +456,11 @@
 
   (module "" (layer Top) (tedit 0) (tstamp 0)
     (at 170.6261 82.2786)
-    (fp_text reference @HOLE1 (at 0 0) (layer F.SilkS) hide
+    (path /5E0C9007)
+    (fp_text reference Hole1 (at 0 0) (layer F.SilkS) hide
       (effects (font (size 0.8 0.8) (thickness 0.2)))
     )
-    (fp_text value "" (at 0 0) (layer F.SilkS)
+    (fp_text value MountingHole (at 0 0) (layer F.SilkS) hide
       (effects (font (size 1.27 1.27) (thickness 0.15)))
     )
     (pad "" np_thru_hole circle (at 0 0) (size 3.2 3.2) (drill 3.2) (layers *.Cu *.Mask))
@@ -466,10 +468,11 @@
 
   (module "" (layer Top) (tedit 0) (tstamp 0)
     (at 170.6261 127.2536)
-    (fp_text reference @HOLE2 (at 0 0) (layer F.SilkS) hide
+    (path /5E0CAA48)
+    (fp_text reference Hole2 (at 0 0) (layer F.SilkS) hide
       (effects (font (size 0.8 0.8) (thickness 0.2)))
     )
-    (fp_text value "" (at 0 0) (layer F.SilkS)
+    (fp_text value MountingHole (at 0 0) (layer F.SilkS) hide
       (effects (font (size 1.27 1.27) (thickness 0.15)))
     )
     (pad "" np_thru_hole circle (at 0 0) (size 3.2 3.2) (drill 3.2) (layers *.Cu *.Mask))
@@ -477,10 +480,11 @@
 
   (module "" (layer Top) (tedit 0) (tstamp 0)
     (at 146.7511 127.2536)
-    (fp_text reference @HOLE3 (at 0 0) (layer F.SilkS) hide
+    (path /5E0CA3C5)
+    (fp_text reference Hole3 (at 0 0) (layer F.SilkS) hide
       (effects (font (size 0.8 0.8) (thickness 0.2)))
     )
-    (fp_text value "" (at 0 0) (layer F.SilkS)
+    (fp_text value MountingHole (at 0 0) (layer F.SilkS) hide
       (effects (font (size 1.27 1.27) (thickness 0.15)))
     )
     (pad "" np_thru_hole circle (at 0 0) (size 3.2 3.2) (drill 3.2) (layers *.Cu *.Mask))
@@ -2173,7 +2177,7 @@
     (fp_text reference ZX0 (at -0.3589 1.9636 90) (layer F.SilkS)
       (effects (font (size 0.8 0.8) (thickness 0.2)) (justify left bottom))
     )
-    (fp_text value ZX0 (at 0 0) (layer F.Fab)
+    (fp_text value ZX (at 0 0) (layer F.Fab)
       (effects (font (size 0.76 0.76) (thickness 0.0608)) (justify left bottom))
     )
     (pad 1 smd rect (at 0 0 180) (size 1.27 2.54) (layers Top F.Paste F.Mask)
@@ -2187,7 +2191,7 @@
     (fp_text reference ZX1 (at -0.4539 1.9636 90) (layer F.SilkS)
       (effects (font (size 0.8 0.8) (thickness 0.2)) (justify left bottom))
     )
-    (fp_text value ZX1 (at 0 0) (layer F.Fab)
+    (fp_text value ZX (at 0 0) (layer F.Fab)
       (effects (font (size 0.76 0.76) (thickness 0.0608)) (justify left bottom))
     )
     (pad 1 smd rect (at 0 0 180) (size 1.27 2.54) (layers Top F.Paste F.Mask)
@@ -2201,7 +2205,7 @@
     (fp_text reference ZX2 (at -0.5489 1.9636 90) (layer F.SilkS)
       (effects (font (size 0.8 0.8) (thickness 0.2)) (justify left bottom))
     )
-    (fp_text value ZX0 (at 0 0) (layer F.Fab)
+    (fp_text value ZX (at 0 0) (layer F.Fab)
       (effects (font (size 0.76 0.76) (thickness 0.0608)) (justify left bottom))
     )
     (pad 1 smd rect (at 0 0 180) (size 1.27 2.54) (layers Top F.Paste F.Mask)
@@ -2238,7 +2242,7 @@
     (fp_text reference LED2 (at -0.3749 -4.5274 90) (layer F.SilkS)
       (effects (font (size 0.8 0.8) (thickness 0.2)) (justify left bottom))
     )
-    (fp_text value GRN (at 1.905 0.635 90) (layer F.Fab)
+    (fp_text value RED (at 1.905 0.635 90) (layer F.Fab)
       (effects (font (size 0.76 0.76) (thickness 0.0608)) (justify left bottom))
     )
     (fp_poly (pts (xy -0.15 0) (xy 0.15 0) (xy 0.15 -0.3) (xy -0.15 -0.3)) (layer F.SilkS) (width 0))
@@ -2261,7 +2265,7 @@
     (fp_text reference LED3 (at -0.4819 -4.5274 90) (layer F.SilkS)
       (effects (font (size 0.8 0.8) (thickness 0.2)) (justify left bottom))
     )
-    (fp_text value BLU (at 1.905 0.635 90) (layer F.Fab)
+    (fp_text value RED (at 1.905 0.635 90) (layer F.Fab)
       (effects (font (size 0.76 0.76) (thickness 0.0608)) (justify left bottom))
     )
     (fp_poly (pts (xy -0.15 0) (xy 0.15 0) (xy 0.15 -0.3) (xy -0.15 -0.3)) (layer F.SilkS) (width 0))
@@ -2284,7 +2288,7 @@
     (fp_text reference LED4 (at -0.5889 1.4726 90) (layer F.SilkS)
       (effects (font (size 0.8 0.8) (thickness 0.2)) (justify left bottom))
     )
-    (fp_text value YEL (at 1.905 0.635 90) (layer F.Fab)
+    (fp_text value RED (at 1.905 0.635 90) (layer F.Fab)
       (effects (font (size 0.76 0.76) (thickness 0.0608)) (justify left bottom))
     )
     (fp_poly (pts (xy -0.15 0) (xy 0.15 0) (xy 0.15 -0.3) (xy -0.15 -0.3)) (layer F.SilkS) (width 0))
@@ -3313,7 +3317,7 @@
   (segment (start 157.3339 126.1936) (end 157.4101 126.1174) (width 0.3048) (layer Top) (net 72) (tstamp 54ED8D0))
   (segment (start 157.3339 126.1936) (end 157.3111 126.1936) (width 0.3048) (layer Top) (net 72) (tstamp 54EC2F0))
 
-  (zone (net 1) (net_name GND) (layer Bottom) (tstamp 5E04B2CD) (hatch edge 0.508)
+  (zone (net 1) (net_name GND) (layer Bottom) (tstamp 5E0B323E) (hatch edge 0.508)
     (priority 6)
     (connect_pads (clearance 0.000001))
     (min_thickness 0.1524)
