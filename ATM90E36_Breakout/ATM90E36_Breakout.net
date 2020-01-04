@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:\Users\Tisham\Documents\kicad\ATM90E36_Breakout_KiCAD\ATM90E36_Breakout\ATM90E36_Breakout.sch)
-    (date "30/12/2019 11:20:17 PM")
+    (date "4/01/2020 11:37:40 PM")
     (tool "Eeschema (5.1.5)-3")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -259,7 +259,7 @@
       (value 10K)
       (footprint ATM90E36_Breakout:R0603)
       (fields
-        (field (name manf#) SR0603KR-7W10KL))
+        (field (name manf#) RC0201JR-0710KL))
       (libsource (lib ATM90E36_Breakout-eagle-import) (part R-US_R0603) (description ""))
       (sheetpath (names /) (tstamps /))
       (tstamp D975FB52))
@@ -379,7 +379,7 @@
       (value FA-128)
       (footprint ATM90E36_Breakout:FA-128)
       (fields
-        (field (name manf#) "FA-128 16.00M-A0NNNNHB0REB"))
+        (field (name manf#) ECS-160-10-36-CKM-TR))
       (libsource (lib ATM90E36_Breakout-eagle-import) (part FA-128) (description ""))
       (sheetpath (names /) (tstamps /))
       (tstamp 22BC07EB))
@@ -427,7 +427,7 @@
       (value ST-PJ-312)
       (footprint ATM90E36_Breakout:AUDIO6P-SMD-3.5-14.0X6.4X5.0MM)
       (fields
-        (field (name manf#) ST-PJ-312))
+        (field (name manf#) ST-PJ-342))
       (libsource (lib ATM90E36_Breakout-eagle-import) (part "AUDIO-JACK-6P-SMD(ST-PJ-312)") (description ""))
       (sheetpath (names /) (tstamps /))
       (tstamp 5E8BFF6F))
@@ -435,7 +435,7 @@
       (value ST-PJ-312)
       (footprint ATM90E36_Breakout:AUDIO6P-SMD-3.5-14.0X6.4X5.0MM)
       (fields
-        (field (name manf#) ST-PJ-312))
+        (field (name manf#) ST-PJ-342))
       (libsource (lib ATM90E36_Breakout-eagle-import) (part "AUDIO-JACK-6P-SMD(ST-PJ-312)") (description ""))
       (sheetpath (names /) (tstamps /))
       (tstamp 61C5C6F3))
@@ -443,7 +443,7 @@
       (value ST-PJ-312)
       (footprint ATM90E36_Breakout:AUDIO6P-SMD-3.5-14.0X6.4X5.0MM)
       (fields
-        (field (name manf#) ST-PJ-312))
+        (field (name manf#) ST-PJ-342))
       (libsource (lib ATM90E36_Breakout-eagle-import) (part "AUDIO-JACK-6P-SMD(ST-PJ-312)") (description ""))
       (sheetpath (names /) (tstamps /))
       (tstamp 53035BF0))
@@ -451,7 +451,7 @@
       (value ST-PJ-312)
       (footprint ATM90E36_Breakout:AUDIO6P-SMD-3.5-14.0X6.4X5.0MM)
       (fields
-        (field (name manf#) ST-PJ-312))
+        (field (name manf#) ST-PJ-342))
       (libsource (lib ATM90E36_Breakout-eagle-import) (part "AUDIO-JACK-6P-SMD(ST-PJ-312)") (description ""))
       (sheetpath (names /) (tstamps /))
       (tstamp 80D53B8A))
