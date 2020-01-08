@@ -34,10 +34,10 @@ Connection ~ 1600 7300
 Text Label 1300 7300 2    70   ~ 0
 IB-
 Wire Wire Line
-	10700 1150 10470 1150
+	11630 1545 11400 1545
 Wire Wire Line
-	10470 1150 10470 1160
-Text Label 10470 1160 1    70   ~ 0
+	11400 1545 11400 1555
+Text Label 11515 1545 1    70   ~ 0
 IB-
 Wire Wire Line
 	2000 7300 2100 7300
@@ -63,8 +63,8 @@ Connection ~ 1600 4300
 Text Label 1300 4300 2    70   ~ 0
 IA+
 Wire Wire Line
-	10460 1750 10650 1750
-Text Label 10555 1750 1    70   ~ 0
+	10380 1740 10570 1740
+Text Label 10475 1740 1    70   ~ 0
 IA+
 Wire Wire Line
 	2000 4300 2100 4300
@@ -87,8 +87,8 @@ Connection ~ 1600 6000
 Text Label 1300 6000 2    70   ~ 0
 IB+
 Wire Wire Line
-	11500 1750 11600 1750
-Text Label 11560 1750 1    70   ~ 0
+	11400 1755 11500 1755
+Text Label 11460 1755 1    70   ~ 0
 IB+
 Wire Wire Line
 	2000 5600 2100 5600
@@ -114,9 +114,7 @@ Connection ~ 3200 4300
 Text Label 2900 4300 2    70   ~ 0
 IC+
 Wire Wire Line
-	10400 3370 10530 3370
-Text Label 10465 3370 1    70   ~ 0
-IC+
+	10395 3370 10525 3370
 Wire Wire Line
 	3600 4300 3700 4300
 Wire Wire Line
@@ -136,10 +134,6 @@ Wire Wire Line
 	3200 5600 2900 5600
 Connection ~ 3200 5600
 Text Label 2900 5600 2    70   ~ 0
-IC-
-Wire Wire Line
-	9600 2770 9510 2770
-Text Label 9520 2770 1    70   ~ 0
 IC-
 Wire Wire Line
 	3600 5600 3700 5600
@@ -776,13 +770,8 @@ Wire Wire Line
 Connection ~ 3200 6000
 Text Label 3000 6000 2    70   ~ 0
 IN+
-Wire Wire Line
-	11430 3360 11440 3360
-Wire Wire Line
-	11440 3360 11610 3360
-Text Label 11540 3360 1    70   ~ 0
+Text Label 11540 3350 1    70   ~ 0
 IN+
-Connection ~ 11440 3360
 Wire Wire Line
 	3200 7300 3200 7200
 Wire Wire Line
@@ -791,8 +780,8 @@ Connection ~ 3200 7300
 Text Label 3000 7300 2    70   ~ 0
 IN-
 Wire Wire Line
-	10640 2760 10480 2760
-Text Label 10530 2760 1    70   ~ 0
+	11590 3150 11430 3150
+Text Label 11480 3150 1    70   ~ 0
 IN-
 Wire Wire Line
 	1600 5600 1600 5500
@@ -800,10 +789,6 @@ Wire Wire Line
 	1600 5600 1300 5600
 Connection ~ 1600 5600
 Text Label 1300 5600 2    70   ~ 0
-IA-
-Wire Wire Line
-	9660 1150 9490 1150
-Text Label 9490 1150 1    70   ~ 0
 IA-
 Wire Wire Line
 	2000 2000 2000 1800
@@ -1591,54 +1576,6 @@ F 4 "20020327-C021B01LF" H 10970 4190 50  0001 C CNN "manf#"
 	-1   0    0    1   
 $EndComp
 $Comp
-L ATM90E36_Breakout-eagle-import:AUDIO-JACK-6P-SMD(ST-PJ-312) CTA1
-U 1 1 5E8BFF6F
-P 10060 1500
-F 0 "CTA1" H 9810 1750 42  0000 L BNN
-F 1 "ST-PJ-312" H 9960 1200 42  0000 L BNN
-F 2 "ATM90E36_Breakout:AUDIO6P-SMD-3.5-14.0X6.4X5.0MM" H 10060 1500 50  0001 C CNN
-F 3 "" H 10060 1500 50  0001 C CNN
-F 4 "ST-PJ-342" H 10060 1500 50  0001 C CNN "manf#"
-	1    10060 1500
-	0    -1   -1   0   
-$EndComp
-$Comp
-L ATM90E36_Breakout-eagle-import:AUDIO-JACK-6P-SMD(ST-PJ-312) CTB1
-U 1 1 61C5C6F3
-P 11100 1500
-F 0 "CTB1" H 10850 1750 42  0000 L BNN
-F 1 "ST-PJ-312" H 11000 1200 42  0000 L BNN
-F 2 "ATM90E36_Breakout:AUDIO6P-SMD-3.5-14.0X6.4X5.0MM" H 11100 1500 50  0001 C CNN
-F 3 "" H 11100 1500 50  0001 C CNN
-F 4 "ST-PJ-342" H 11100 1500 50  0001 C CNN "manf#"
-	1    11100 1500
-	0    -1   -1   0   
-$EndComp
-$Comp
-L ATM90E36_Breakout-eagle-import:AUDIO-JACK-6P-SMD(ST-PJ-312) CTC1
-U 1 1 53035BF0
-P 10000 3120
-F 0 "CTC1" H 9750 3370 42  0000 L BNN
-F 1 "ST-PJ-312" H 9900 2820 42  0000 L BNN
-F 2 "ATM90E36_Breakout:AUDIO6P-SMD-3.5-14.0X6.4X5.0MM" H 10000 3120 50  0001 C CNN
-F 3 "" H 10000 3120 50  0001 C CNN
-F 4 "ST-PJ-342" H 10000 3120 50  0001 C CNN "manf#"
-	1    10000 3120
-	0    -1   -1   0   
-$EndComp
-$Comp
-L ATM90E36_Breakout-eagle-import:AUDIO-JACK-6P-SMD(ST-PJ-312) CTN1
-U 1 1 80D53B8A
-P 11040 3110
-F 0 "CTN1" H 10790 3360 42  0000 L BNN
-F 1 "ST-PJ-312" H 10940 2810 42  0000 L BNN
-F 2 "ATM90E36_Breakout:AUDIO6P-SMD-3.5-14.0X6.4X5.0MM" H 11040 3110 50  0001 C CNN
-F 3 "" H 11040 3110 50  0001 C CNN
-F 4 "ST-PJ-342" H 11040 3110 50  0001 C CNN "manf#"
-	1    11040 3110
-	0    -1   -1   0   
-$EndComp
-$Comp
 L ATM90E36_Breakout-eagle-import:M06LOCK JP2
 U 1 1 6F0A6836
 P 11300 5100
@@ -1937,4 +1874,64 @@ F 4 " " H 9500 8500 50  0001 C CNN "DNP"
 	1    9500 8500
 	1    0    0    -1  
 $EndComp
+$Comp
+L Connector:AudioJack3 CTB1
+U 1 1 5E171051
+P 11200 1655
+F 0 "CTB1" H 11182 1980 50  0000 C CNN
+F 1 "AudioJack3" H 11182 1889 50  0000 C CNN
+F 2 "Connector_Audio:Jack_3.5mm_CUI_SJ-3523-SMT_Horizontal" H 11200 1655 50  0001 C CNN
+F 3 "~" H 11200 1655 50  0001 C CNN
+F 4 "SJ-3523-SMT-TR" H 11200 1655 50  0001 C CNN "manf#"
+	1    11200 1655
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:AudioJack3 CTC1
+U 1 1 5E171794
+P 10195 3270
+F 0 "CTC1" H 10177 3595 50  0000 C CNN
+F 1 "AudioJack3" H 10177 3504 50  0000 C CNN
+F 2 "Connector_Audio:Jack_3.5mm_CUI_SJ-3523-SMT_Horizontal" H 10195 3270 50  0001 C CNN
+F 3 "~" H 10195 3270 50  0001 C CNN
+F 4 "SJ-3523-SMT-TR" H 10195 3270 50  0001 C CNN "manf#"
+	1    10195 3270
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:AudioJack3 CTN1
+U 1 1 5E1722BE
+P 11230 3250
+F 0 "CTN1" H 11212 3575 50  0000 C CNN
+F 1 "AudioJack3" H 11212 3484 50  0000 C CNN
+F 2 "Connector_Audio:Jack_3.5mm_CUI_SJ-3523-SMT_Horizontal" H 11230 3250 50  0001 C CNN
+F 3 "~" H 11230 3250 50  0001 C CNN
+F 4 "SJ-3523-SMT-TR" H 11230 3250 50  0001 C CNN "manf#"
+	1    11230 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11430 3350 11610 3350
+Text Label 10455 3370 1    70   ~ 0
+IC+
+Wire Wire Line
+	10485 3170 10395 3170
+Text Label 10405 3170 1    70   ~ 0
+IC-
+$Comp
+L Connector:AudioJack3 CTA1
+U 1 1 5E1708FD
+P 10180 1640
+F 0 "CTA1" H 10162 1965 50  0000 C CNN
+F 1 "AudioJack3" H 10162 1874 50  0000 C CNN
+F 2 "Connector_Audio:Jack_3.5mm_CUI_SJ-3523-SMT_Horizontal" H 10180 1640 50  0001 C CNN
+F 3 "~" H 10180 1640 50  0001 C CNN
+F 4 "SJ-3523-SMT-TR" H 10180 1640 50  0001 C CNN "manf#"
+	1    10180 1640
+	1    0    0    -1  
+$EndComp
+Text Label 10470 1540 1    70   ~ 0
+IA-
+Wire Wire Line
+	10550 1540 10380 1540
 $EndSCHEMATC
