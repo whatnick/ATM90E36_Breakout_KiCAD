@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:\Users\Tisham\Documents\kicad\ATM90E36_Breakout_KiCAD\ATM90E36_Breakout\ATM90E36_Breakout.sch)
-    (date "8/01/2020 10:20:53 PM")
+    (date "20/02/2020 10:02:09 PM")
     (tool "Eeschema (5.1.5)-3")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -259,7 +259,7 @@
       (value 10K)
       (footprint ATM90E36_Breakout:R0603)
       (fields
-        (field (name manf#) RC0201JR-0710KL))
+        (field (name manf#) RC0603JR-0710KL))
       (libsource (lib ATM90E36_Breakout-eagle-import) (part R-US_R0603) (description ""))
       (sheetpath (names /) (tstamps /))
       (tstamp D975FB52))
