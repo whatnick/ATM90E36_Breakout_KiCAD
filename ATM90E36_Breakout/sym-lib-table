@@ -1,3 +1,5 @@
 (sym_lib_table
-  (lib (name ATM90E36_Breakout-eagle-import)(type Legacy)(uri ${KIPRJMOD}/library/ATM90E36_Breakout-eagle-import.lib)(options "")(descr ""))
+  (version 7)
+  (lib (name "ATM90E36_Breakout-eagle-import")(type "Legacy")(uri "${KIPRJMOD}/library/ATM90E36_Breakout-eagle-import.lib")(options "")(descr ""))
+  (lib (name "ATM90E36_Breakout-rescue")(type "KiCad")(uri "${KIPRJMOD}/ATM90E36_Breakout-rescue.kicad_sym")(options "")(descr ""))
 )
